@@ -1,0 +1,29 @@
+# --- Data & generated outputs (do NOT commit) ---
+data/raw/
+data/interim/
+data/features/
+artifacts/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Secrets / local configs ---
+.env
+*.pem
+*.key
+*.log
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
