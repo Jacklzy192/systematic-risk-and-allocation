@@ -1,4 +1,3 @@
-````markdown
 # systematic-risk-and-allocation
 
 Systematic portfolio risk analysis and signal-to-allocation research using macro and market data.
@@ -102,12 +101,11 @@ This will:
 
 ✅ Baseline pipeline implemented (ingestion → time split → model → signal → backtest)
 
-🔜 **Next steps:**
+**Next steps:**
 - Walk-forward validation (multiple rolling folds)
 - Feature engineering v1 (rolling z-scores, volatility regimes, PCA factors)
 - Vol targeting + leverage caps for improved drawdown control
 - More realistic cost/slippage modeling
 - Regime-sliced performance diagnostics
-````
 
 ---
